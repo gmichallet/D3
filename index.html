@@ -1,0 +1,71 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Health Risks vs. Demographics</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Health Risks vs. Demographics</a>
+        </div>
+    </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Health Risks Facing Particular Demographics in America</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div id="scatter">
+          <div class="chart"></div>
+          <!-- Append Chart Here -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-9">
+        <div class="article">
+          <h3>Correlations Between Health Risks and Income</h3>
+          <p>Based on the above charts, it appears that there is a direct correlation between health risk factors, household income, and poverty. 
+              The data shows that less affluent states have higher obesity rates and has increased likelihood to smoke. 
+              The states with higher household income has generally better healthcare coverage, lower obesity rate, and less likely to smoke. 
+              The chart shows outliers, which indicates that my assumption is not absolute. 
+              For example, North Dakota and Delaware has relatively high median household income, but with high obesity rates. </p>
+          <br>
+          <h3>Correlations Between Health Risks and Age</h3>
+          <p>Based on the above chart, it is unclear whether there is a correlation between health risk and age. The median ages in most US states are between 
+              36-40 years old. The lack of range in median age clustered the visualization making them more difficult to analyze. However, we can draw conclusion if we analyze the data by state. 
+              For example, Texas has a median age of 34, has the highest % lacking healthcare, likelihood to smoke is lower than most states, and in the obesity rate is above most states. 
+              California's median age is 36, with high healthcare coverage, the smoking and obesity rate is lower than most states. 
+              It appears that there is more of a correlation between healthcare coverage and healthrisks than the age.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>&copy; Copyright Grace Michallet. All Rights Reserved.</p>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
+ 
